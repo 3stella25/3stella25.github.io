@@ -5,37 +5,44 @@ body {
 /****************   Nav Section **********************/
 nav {
 	background-color: #111827;
-  padding: 1 rem 2.5 rem;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font: 2em;
 }
 
 /***********************  Footer Section   **************************/
 footer {
 	background-color: #111827;
-  padding: 1 rem 2.5 rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
   display: flex;
   justify-content: center;
 }
 
 /*********** Splash Page ************************/
 header {
-  padding: 4rem 3rem;
+  padding: 1rem 1rem;
   background-color: #0f172a;
-  color: #ffffff;
-
+  color: #ffffffb3;
   font-family: 'Inter', sans-serif;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  color: #d1d5db;
 }
 
 header img {
-  width: 220px;
-  height: 220px;
+  width: 300;
+  height: auto;
+  align-content: center;
   border: 4px solid #38bdf8;
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
@@ -53,28 +60,30 @@ header img {
   font-weight: 500;
   color: #e2e8f0;
   margin-top: 1rem;
-  max-width: 450px;
+  max-width: 100%;
 }
 
 /************* Sections ********************/
 hr {
   border: none;
   border-top: 2px solid #e5e7eb;
-  margin: 2rem 0;
 }
 
 section h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1 rem;
   font-weight: 700;
   color: #1e40af;
   margin-bottom: 1rem;
   border-bottom: 2px solid #1e40af;
   padding-bottom: 0.25rem;
+  margin-left: 10px;
   }
 
 section dl {
-  display: grid
+  display: grid;
+  grid-template-columns: max-content auto;
+  margin-left: 10px;
 }
 
 section ul {
@@ -95,12 +104,16 @@ section a:hover {
 /**************   Projects   *****************/
 .three-col {
 	display: grid;
+  font-size: 1rem;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
+  text-align: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 .card img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: .5px;
   object-fit: cover;
