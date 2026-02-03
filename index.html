@@ -3,103 +3,401 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ella Tse</title>
+    <title>Ella Tse - Cybersecurity Professional</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>  
-        <p>Ella Tse</p> 
-        <a href="contact.html">Contact Ella Tse</a>      
-    </nav>
-    <header>
-        <h1>Ella Tse</h1>
-        <img src="images/headshot.jpg" alt="Ella Tse Headshot" width="150">
-        <p class="address">■ 1828 Pemberton Pl ■ 425-393-9535 ■ ellastse19@gmail.com </p>
-        <p class="tagline"> I'm a hardworking student interested in cybersecurity, specifically DevSecOps. I'm currently seeking an internship in cybersecurity, or a related field.</p>
-    </header>
-    <hr>
-    <section>
-        <h2>Education</h2>
-        <dl>
-            <dt>University of Georgia- Morehead Honors College</dt>
-                <dd>4.00</dd>
-            <dt>Bachelors of Science- Computer Science</dt>
-                <dd> May 2028</dd>
-        </dl>
-    </section>
-    <section>
-        <h2>Honors and Awards</h2>
-        <dl>
-            <dt>Presidential Scholar</dt>
-                <dd>2025</dd>
-            <dt>AP Scholar with Distinction</dt>
-                <dd>2022, 2023, 2024, 2025</dd>
-            <dt>National Merit Finalist & Scholarship</dt>
-                <dd>2025</dd>
-        </dl>
-    </section>
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li> 
-            <li>C++</li>
-            <li>Javascript</li>
-            <li>HTML/CSS</li>
-            <li>JSON</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Leadership and Experience</h2>
-        <dl>
-            <dt>Instructor & Grader at <a href="https://www.kumon.com">Kumon</a></dt>
-                <dd>May 2023 - July 2025</dd>
-            <dt>Private Tutor </dt>
-                <dd>February 2023 - May 2025</dd>
-            <dt>Computer Science Honors Society Director</dt>
-                <dd>August 2024 - May 2025</dd>
-        </dl>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <div class="three-col">
-            <div class="card">
-                <h3>AWS Honeynet SIEM: Research & Analysis-| Honeypots, Suricata, AWS EC2, SSH, Security Groups, Nmap</h3>
-                <img src="images/honeynet.png" alt="AWS Honeynet SIEM Image" width="300">
-                <ul>
-                    <li>- Deployed T-Pot honeynet infrastructure on a Debian EC2 instance, capturing 2000000+ attacks from 2700+ unique IPs, with SMB as primary target</li>
-                    <li>- Analyzed attack patterns and generated reports using Suricata and Nmap</li>
-                </ul>
+    <div class="container">
+        <nav>  
+            <div class="nav-brand">Ella Tse</div> 
+            <div class="nav-links">
+                <a href="contact.html">Contact</a>
+                <a href="https://www.linkedin.com/in/ella-tse/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/3stella25" target="_blank"><i class="fab fa-github"></i></a>
+            </div>      
+        </nav>
+        
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Ella Tse</h1>
+                <div class="hero-subtitle">Cybersecurity Professional</div>
+                <div class="contact-info">
+                    <span>ellastse19@gmail.com</span>
+                    <span>•</span>
+                    <span>425-393-9535</span>
+                    <span>•</span>
+                    <span>Athens, GA</span>
+                </div>
             </div>
-            <div class="card">
-                <h3>BinaryScan-| JavaFX, Java, Maven, GSON, Restful APIS, git, Github</h3>
-                <img src="images/binaryscan.png" alt="BinaryScan Image" width="300"> <!-- Replace with actual image-->
-                <ul>
-                    <li>- Built desktop application aggregating blacklist-based threat detection from 95+ security engines via VirusTotal API, providing instant URL reputation analysis </li>
-                    <li>- Implemented a GUI using JavaFX for user interaction and data visualization</li>
-                </ul>
+            <div class="hero-image">
+                <img src="images/headshot.jpg" alt="Ella Tse Professional Headshot">
             </div>
-            <div class="card">
-                <h3>Itunes API Gallery-| JSON, Maven, Java, JavaFX, CSS</h3>
-                <img src="images/galleryapp.png" alt="Itunes API Gallery Image" width="300"> <!-- Replace with actual image-->
-                <ul>
-                    <li>- Developed a JavaFX desktop application that fetches and displays media data from the iTunes API based on user search input</li>
-                    <li>- Parsed JSON responses to dynamically generate and style content using CSS for enhanced user experience</li>
-                </ul>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-main">
+                    <h3>University of Georgia, School of Computing, Morehead Honors College</h3>
+                    <div class="education-details">
+                        <span>Bachelor of Science, Computer Science</span>
+                        <span class="gpa">Major GPA: 4.00</span>
+                    </div>
+                </div>
+                <div class="education-date">Athens, GA<br>May 2028</div>
+            </div>
+            <div class="coursework">
+                <strong>Relevant Coursework:</strong> Java Software Development, Python Programming, Web Programming, AI, Data Structures
+            </div>
+        </section>
+
+        <section>
+    <h2>Professional Certifications</h2>
+    <div class="certifications-grid">
+        
+        <!-- CySA+ Certification -->
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="images/cysa.jpg" alt="CompTIA CySA+ Certification Badge">
+            </div>
+            <div class="cert-content">
+                <div class="cert-header">
+                    <h3>CompTIA CySA+</h3>
+                    <div class="cert-subtitle">Cybersecurity Analyst</div>
+                </div>
+                <div class="cert-details">
+                    <div class="cert-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>February 2026 – 2029</span>
+                    </div>
+                    <div class="cert-id">
+                        <i class="fas fa-certificate"></i>
+                        <span>Cert ID: CS0-003-XXXXXXX</span>
+                    </div>
+                </div>
+                <div class="cert-description">
+                    Advanced threat detection, incident response, and vulnerability assessment expertise
+                </div>
+                <div class="cert-links">
+                    <a href="https://www.credly.com/badges/89ccaf28-6412-430b-937b-928ad67aa014/public_url" target="_blank" class="btn-verify">
+                        <i class="fas fa-external-link-alt"></i> Verify Badge
+                    </a>
+                    <a href="images/cysa-certificate.pdf" target="_blank" class="btn-certificate">
+                        <i class="fas fa-file-pdf"></i> Certificate
+                    </a>
+                </div>
             </div>
         </div>
-    </section>
-    <footer>
-        © <a href="contact.html">Ella Tse</a>
-        <a href="https://www.linkedin.com/in/ella-tse/"><i class="fab fa-linkedin"></i></a>
-    </footer>
+
+        <!-- Network+ Certification -->
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="images/network.jpg" alt="CompTIA Network+ Certification Badge">
+            </div>
+            <div class="cert-content">
+                <div class="cert-header">
+                    <h3>CompTIA Network+</h3>
+                    <div class="cert-subtitle">Network Infrastructure</div>
+                </div>
+                <div class="cert-details">
+                    <div class="cert-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>January 2026 – 2029</span>
+                    </div>
+                    <div class="cert-id">
+                        <i class="fas fa-certificate"></i>
+                        <span>Cert ID: N10-009-XXXXXXX</span>
+                    </div>
+                </div>
+                <div class="cert-description">
+                    Network configuration, troubleshooting, and security implementation skills
+                </div>
+                <div class="cert-links">
+                    <a href="https://www.credly.com/badges/22f8f616-3e84-4bfb-bf0c-49a7e3d56310" target="_blank" class="btn-verify">
+                        <i class="fas fa-external-link-alt"></i> Verify Badge
+                    </a>
+                    <a href="images/network-plus-certificate.pdf" target="_blank" class="btn-certificate">
+                        <i class="fas fa-file-pdf"></i> Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Security+ Certification -->
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="images/security.jpg" alt="CompTIA Security+ Certification Badge">
+            </div>
+            <div class="cert-content">
+                <div class="cert-header">
+                    <h3>CompTIA Security+</h3>
+                    <div class="cert-subtitle">Cybersecurity Foundation</div>
+                </div>
+                <div class="cert-details">
+                    <div class="cert-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>December 2025 – 2028</span>
+                    </div>
+                    <div class="cert-id">
+                        <i class="fas fa-certificate"></i>
+                        <span>Cert ID: SY0-701-XXXXXXX</span>
+                    </div>
+                </div>
+                <div class="cert-description">
+                    Core cybersecurity principles, risk management, and security operations
+                </div>
+                <div class="cert-links">
+                    <a href="https://www.credly.com/badges/605a0f78-27f6-44e7-a2c7-e4e7f6c81d29" target="_blank" class="btn-verify">
+                        <i class="fas fa-external-link-alt"></i> Verify Badge
+                    </a>
+                    <a href="images/security-plus-certificate.pdf" target="_blank" class="btn-certificate">
+                        <i class="fas fa-file-pdf"></i> Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- AWS Cloud Practitioner -->
+        <div class="cert-card">
+            <div class="cert-image">
+                <img src="images/ccp.jpg" alt="AWS Certified Cloud Practitioner Badge">
+            </div>
+            <div class="cert-content">
+                <div class="cert-header">
+                    <h3>AWS Cloud Practitioner</h3>
+                    <div class="cert-subtitle">Amazon Web Services</div>
+                </div>
+                <div class="cert-details">
+                    <div class="cert-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>August 2025 – 2028</span>
+                    </div>
+                    <div class="cert-id">
+                        <i class="fas fa-certificate"></i>
+                        <span>Cert ID: AWS-CCP-XXXXXXX</span>
+                    </div>
+                </div>
+                <div class="cert-description">
+                    Cloud computing fundamentals, AWS services, and cloud security basics
+                </div>
+                <div class="cert-links">
+                    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/dcf9f0dd06fa4d68b60292da32bb2784" target="_blank" class="btn-verify">
+                        <i class="fas fa-external-link-alt"></i> Verify Badge
+                    </a>
+                    <a href="images/aws-certificate.pdf" target="_blank" class="btn-certificate">
+                        <i class="fas fa-file-pdf"></i> Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- Enhanced Projects Section with Grid Layout -->
+<section>
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+        
+        <!-- AWS Honeynet Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/honeypot-dashboard.png" alt="AWS Honeynet Dashboard showing attack analytics">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>AWS Honeynet: Research & Analysis</h3>
+                    <div class="project-tech">
+                        <span>AWS EC2</span>
+                        <span>Suricata</span>
+                        <span>Python</span>
+                        <span>SIEM</span>
+                    </div>
+                </div>
+                <div class="project-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>2M+ Attacks Captured</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-globe"></i>
+                        <span>2,700+ Unique IPs</span>
+                    </div>
+                </div>
+                <ul class="project-highlights">
+                    <li>Deployed T-Pot infrastructure capturing massive attack dataset</li>
+                    <li>Analyzed attack patterns revealing 80% known malicious actors</li>
+                    <li>Implemented real-time threat detection with Suricata IDS</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/3stella25/aws-honeynet-analysis" target="_blank" class="btn-github">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                    <a href="images/honeynet-report.pdf" target="_blank" class="btn-demo">
+                        <i class="fas fa-chart-line"></i> Analysis Report
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BinaryScan Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/binaryscan-interface.png" alt="BinaryScan application interface">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>BinaryScan: Threat Detection Tool</h3>
+                    <div class="project-tech">
+                        <span>JavaFX</span>
+                        <span>VirusTotal API</span>
+                        <span>Maven</span>
+                        <span>JSON</span>
+                    </div>
+                </div>
+                <div class="project-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-search"></i>
+                        <span>95+ Security Engines</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Instant Analysis</span>
+                    </div>
+                </div>
+                <ul class="project-highlights">
+                    <li>Desktop app aggregating threat detection from multiple engines</li>
+                    <li>Secure API management with credential protection</li>
+                    <li>Intuitive dashboard for rapid security decisions</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/3stella25/binary-scan" target="_blank" class="btn-github">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                    <a href="#" class="btn-demo">
+                        <i class="fas fa-play"></i> Demo Video
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- iTunes Gallery Project -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/itunes-gallery.png" alt="iTunes API Gallery application">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>iTunes API Gallery</h3>
+                    <div class="project-tech">
+                        <span>JavaFX</span>
+                        <span>iTunes API</span>
+                        <span>JSON</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="project-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-images"></i>
+                        <span>Dynamic Gallery</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsive UI</span>
+                    </div>
+                </div>
+                <ul class="project-highlights">
+                    <li>JavaFX application with dynamic media search capabilities</li>
+                    <li>JSON parsing with enhanced user experience design</li>
+                    <li>Modern desktop application development showcase</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/3stella25/itunes-gallery" target="_blank" class="btn-github">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                    <a href="#" class="btn-demo">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section class="section">
+            <h2 class="section-title">Relevant Experience</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-main">
+                            <h3>The Hack Pack UGA</h3>
+                            <div class="experience-role">Member</div>
+                        </div>
+                        <div class="experience-location-date">
+                            <div>Athens, GA</div>
+                            <div>August 2025 – Present</div>
+                        </div>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Placed <strong>12th out of 50+ teams</strong> in the UA Crimson Defense CTF by collaborating on time-sensitive cybersecurity challenges spanning open-source intelligence, digital forensics, cryptography, and password cracking</li>
+                        <li>Ranked in the <strong>top 15% of 7,800+ individuals</strong> and top 7% of 4,200+ teams in the National Cyber League (NCL) through solving challenges in reverse engineering, network traffic analysis, web exploitation, and cryptographic problem solving</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-main">
+                            <h3>UGA Kappa Theta Pi Professional Fraternity</h3>
+                            <div class="experience-role">Lead Security Analyst – Kronos Infrastructure</div>
+                        </div>
+                        <div class="experience-location-date">
+                            <div>Athens, GA</div>
+                            <div>August 2025 – Present</div>
+                        </div>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Lead security operations for Proxmox-managed datacenter infrastructure, protecting fraternity-owned servers and services</li>
+                        <li>Investigated and mitigated a <strong>600,000+ attempt brute force attack</strong> using log analysis and access control hardening</li>
+                        <li>Configured authentication, logging, and monitoring systems to detect malicious activity and enforce security policies</li>
+                        <li>Implemented server hardening and least-privilege access controls to reduce attack surface and improve resilience</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-main">
+                            <h3>Kumon Math Instructor & Grader</h3>
+                            <div class="experience-role">Instructor & Grader</div>
+                        </div>
+                        <div class="experience-location-date">
+                            <div>Marietta, GA</div>
+                            <div>May 2023 – July 2025</div>
+                        </div>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Delivered individualized math instruction to students ages 14 to 18, assessing learning gaps and adapting teaching methods to accommodate diverse learning styles and abilities</li>
+                        <li>Managed classroom of 15+ students while tracking individual progress and grades in Excel, providing targeted feedback and one-on-one support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-text">© 2026 Ella Tse - Cybersecurity Professional</div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/ella-tse/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/3stella25" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
